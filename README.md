@@ -14,6 +14,7 @@ Quick and dirty bluetooth speaker, using super cheap Aliexpress parts!
   - A resistor (optional)
     - 0Ω (or a wire) bridging the "gain" contacts makes it a bit louder
     - 100KΩ makes it even louder, but it probably will shut off when playing loud music
+      - a capacitor in the power input will help with the transients and make it shut off less often.
   - Four 2.5mm pitch screw terminals (optional)
     - You can also just solder directly to the pads to make it more compact
 

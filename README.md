@@ -36,7 +36,7 @@ That's it!
     - DIN: GPIO 14
     - Pins 25 and 26 go to the MODE pin respectively of the L and R amps.
       - If you don't do anything with them, the amps will both be MONO
-      - pins 25 and 26 are ADC pins, so you can wnalogwrite. Here's the voltage levels you want:
+      - pins 25 and 26 are ADC pins, so you can analogwrite. Here's the voltage levels you want:
         - Voltage is between 0.16V and 0.77V: MONO 
         - Voltage is between 0.77V and 1.4V: RIGHT
         - Voltage is higher than 1.4V: LEFT
